@@ -13,7 +13,7 @@ Debug, Code Review, IDE, SCM, Run\Support of existing tests, Test Coverage analy
 - Able to analyze a test report.
 ## Middle
 - Familiar with extra SCM commands (ex, conflict resolution, collaborative development).
-- Knows how to configure IDE from scratch or based on provided configuration sources (install pluo996mmmmmlsshfjfjuf gins, SDK, build tools, environment variables etc.)
+- Knows how to configure IDE from scratch or based on provided configuration sources (install plugins, SDK, build tools, environment variables etc.)
 - Able to perform automated test coverage analysis.
 - Able to setup the reporting process for the project needs.
 - Can execute existing tests, prepare test suites using test tool capabilities, able to run tests from IDE, console and external systems (CI)
