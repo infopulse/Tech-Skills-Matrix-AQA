@@ -6,7 +6,7 @@ Skills matrix to evaluate QA engineers
 
 ## How to use?
 
-- Open in Github pages: https://infopulse-qa.github.io/skills-matrix/
+- Open in Github pages: [https://infopulse-qa.github.io/skills-matrix/](https://infopulse-qa.github.io/Automation-Tech-Skills-Matrix/)
 - Review required skills for each level and category
 - Evaluate yourself and your team members
 
