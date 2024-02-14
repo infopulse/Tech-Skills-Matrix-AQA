@@ -29,4 +29,4 @@ graph LR
 
 ## How to contribute?
 
-Leave your comments and suggestions in [Issues](https://github.com/infopulse-qa/skills-matrix/issues)
+Leave your comments and suggestions in [Issues](https://github.com/infopulse/skills-matrix/issues)
