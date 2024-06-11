@@ -18,9 +18,9 @@
             </a>
             <h1>AQA Skills Matrix<span class="line">_</span></h1>
             <p>
-                This Skills Matrix aimed to help assess Automation QA engineer skills
-                in common unambiguous way. Each next seniority level includes previous skills.
-              This matrix <a class="footerLink" href="https://infopulse-qa.github.io/Tech-Skills-Matrix">extends manual QA skills</a>
+                This Tech Skills Matrix is aimed at helping assess Automation QA engineer skills
+                in a common and unambiguous way. Each subsequent seniority level includes the skills from the previous level.
+              This matrix extends <a class="footerLink" href="https://infopulse.github.io/Tech-Skills-Matrix-QA/">manual QA skills</a>.
             </p>
         </div>
         <div class="coverImage"></div>
@@ -49,8 +49,17 @@
                     {{level}}
                 </div>
                 <ul class="tabEl tab{{index}}">
-                    {% for item in file['category'][level] %}
-                    <li>{{item}}</li>
+                    {% for item in file['category'].get(level, []) %}
+                    <li>
+                      {{item.text}}
+                      {% if item.subitems %}
+                      <ul>
+                        {% for subitem in item.subitems %}
+                        <li>{{subitem}}</li>
+                        {% endfor %}
+                      </ul>
+                      {% endif %}
+                    </li>      
                     {% endfor %}
                 </ul>
                 {% endfor %}
@@ -67,7 +76,7 @@
             </a>
             <a
                     class="footerLink"
-                    href="https://github.com/infopulse-qa/Automation-Tech-Skills-Matrix"
+                    href="https://github.com/infopulse/Tech-Skills-Matrix-AQA"
             >Back to github project</a
             >
             <a class="footerLink" href="#">Roadmap</a>
